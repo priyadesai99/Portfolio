@@ -1,0 +1,56 @@
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 20px 0px;
+    color: white;
+    padding: 10px 10px;
+    background-color: #315162
+}
+
+h1{
+    margin: 10px 0;
+    padding: 10px 0px;
+}
+
+.main{
+    width: 98%;
+    height: 100%;
+    margin: 20px 10px;
+    color: white;
+    padding: 10px 10px;
+    background-color: #587484
+}
+
+.about{
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.profilepic{
+    width: 400px;
+    height: 500px;
+    padding: 0% 10%;
+}
+
+/* Center icons and add glow effect on hover */
+.icon-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin: 1.5rem 0;
+  padding-bottom: 2%;;
+}
+
+.icon-img {
+  width: 60px;
+  height: 60px;
+  transition: box-shadow 0.3s, filter 0.3s;
+  display: block;
+  margin: 10px auto;
+}
+
+.icon-img:hover {
+  box-shadow: 0 0 16px 4px #2d3335, 0 0 32px 8px #323d4144;
+  filter: brightness(1.2) drop-shadow(0 0 8px #00bfff);
+}
